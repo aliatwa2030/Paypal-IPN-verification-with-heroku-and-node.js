@@ -57,7 +57,7 @@ Set up a test script in package.json:
   }
 ```
 
-
+http://markmiyashita.com/blog/install_heroku_and_deploy_your_app/
 
 
 
