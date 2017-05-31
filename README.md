@@ -1,4 +1,4 @@
-# heroku
+# Paypal IPN verification with heroku and node.js
 heroku as lisenter for Instant Payment Notification (IPN) Simulator paypal Node JS
 
 ### herkuo change
