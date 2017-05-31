@@ -40,8 +40,10 @@ npm test
 node web.js
 ```
 change herku running app
+
 ```
 heroku git:remote -a appname
+git push -f heroku master
 ```
 
 
