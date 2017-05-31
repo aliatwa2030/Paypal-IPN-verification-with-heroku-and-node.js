@@ -45,12 +45,17 @@ change herku running app
 heroku git:remote -a appname
 git push -f heroku master
 ```
+### install mocha
+```
+$ npm install --save-dev mocha
+```
+Set up a test script in package.json:
 
-
-
-
-
-
+```
+"scripts": {
+    "test": "mocha"
+  }
+```
 
 
 
