@@ -1,7 +1,8 @@
 # heroku
 heroku as lisenter for Instant Payment Notification (IPN) Simulator paypal Node JS
 
-### In testConfig change app-name  with your herkuo app name
+### herkuo change
+In testConfig change app-name  with your herkuo app name
 ```
 module.exports = {
 	host: "https://(app-name).herokuapp.com"
@@ -9,10 +10,12 @@ module.exports = {
 ```
 
 
-### Use https://developer.paypal.com/developer/ipnSimulator to test payment 
+### test fake payment
+Use https://developer.paypal.com/developer/ipnSimulator to test payment 
 in 'IPN handler URL' field put your heroku app url https://(app-name).herokuapp.com
 
-### in web.js uncomment this for Simulating in localhost
+### edit web js 
+in web.js uncomment this for Simulating in localhost
 ```
 //Object.setPrototypeOf(req.body, {});
 
