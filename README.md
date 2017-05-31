@@ -25,3 +25,35 @@ app.listen(port);
 var msg = 'Listening at http://localhost:' + port;
 console.log(msg.green.bold);*/
 ```
+### cmd git
+initial git
+
+```
+git init
+git add .
+git commit -m 'message'
+```
+
+run fake test
+```
+npm test
+node web.js
+```
+change herku running app
+```
+heroku git:remote -a appname
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
