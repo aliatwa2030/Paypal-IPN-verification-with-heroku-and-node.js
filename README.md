@@ -51,7 +51,7 @@ $ npm install --save-dev mocha
 ```
 Set up a test script in package.json:
 
-```
+```json
 "scripts": {
     "test": "mocha"
   }
